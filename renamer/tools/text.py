@@ -22,9 +22,9 @@ class TEXT:
 
 ** Developer:** {bot_owner}
 
-** Channel:** [NS BOT UPDATES](https://t.me/hotstar_vipdarsh)
+** Channel:** [CLICK HERE](https://t.me/hotstar_vipdarsh)
 
-** Owner:** [Ns BOT SUPPORT](https://t.me/adarshgoelo5)
+** Owner:** [CLICK HERE](https://t.me/adarshgoelo5)
 
 ** Source Code:** [Press Me](https://github.com/renameradarsh/renamer-new)
 """
