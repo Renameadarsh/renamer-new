@@ -136,7 +136,7 @@ async def reset_user(c, m):
 async def password(c, m):
     if Config.BOT_PASSWORD:
         if m.from_user.id in Config.AUTH_USERS:
-            return await m.reply_text(f"__Hey you are auth user of this bot so you don't want to login {DETECTIVE_LIGHT_SKIN_TONE}.__")
+            return await m.reply_text(f"__Hey you are auth user of this bot so you don't need to login {DETECTIVE_LIGHT_SKIN_TONE}.__")
 
         is_logged = (await get_data(m.from_user.id)).is_logged
         if is_logged:
