@@ -43,7 +43,7 @@ For source code check about
 
 I am a telegram renamer with permanent thumbnail Support.
 
-𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 𝖲𝖾𝖾 𝖧𝖾𝗅𝗉.
+𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 click 𝖧𝖾𝗅𝗉.
 
 **Maintained By:** {bot_owner}
 """
