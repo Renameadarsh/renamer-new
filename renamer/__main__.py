@@ -22,7 +22,7 @@ def main():
                  api_id=Config.API_ID,
                  api_hash=Config.API_HASH,
                  plugins=dict(root="renamer/plugins"),
-                 workers=100)
+                 workers=2000)
 
     Renamer.start()
     me = Renamer.get_me()
@@ -30,7 +30,7 @@ def main():
     startup_msg = f"Successfully deployed your Bot at @{me.username}\n"
     startup_msg += f"Pyrogram Version: V{__version__}\n"
     startup_msg += f"Python Version: V{platform.python_version()}\n\n"
-    startup_msg += "Thanks for deploying our bot. Please give a star to my repo and join @adarshgoelo5."
+    startup_msg += "Thanks for deploying our bot. Please give a star to my repo and contact @adarshgoelo5."
     print(startup_msg)
 
     idle()
