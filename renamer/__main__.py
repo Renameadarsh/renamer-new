@@ -22,7 +22,7 @@ def main():
                  api_id=Config.API_ID,
                  api_hash=Config.API_HASH,
                  plugins=dict(root="renamer/plugins"),
-                 workers=20000000)#default 100
+                 workers=2000000)#default 100
 
     Renamer.start()
     me = Renamer.get_me()
