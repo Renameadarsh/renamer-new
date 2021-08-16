@@ -1,1 +1,1 @@
-worker: python renamer adarsh
+worker: python -m renamer
