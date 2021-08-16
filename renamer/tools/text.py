@@ -22,7 +22,7 @@ class TEXT:
 
 ** Developer:** {bot_owner}
 
-** Channel:** [CLICK HERE](https://t.me/hotstar_vipdarsh)
+** Channel:** [CLICK HERE](https://t.me/hotstar_vipadarsh)
 
 ** Owner:** [CLICK HERE](https://t.me/adarshgoelo5)
 
