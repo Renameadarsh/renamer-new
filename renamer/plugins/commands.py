@@ -132,7 +132,7 @@ async def reset_user(c, m):
 
 ################## Private command ##################
 
-@RenamerAdarsh.on_message(filters.command('Private-key') & filters.incoming & filters.private)
+@RenamerAdarsh.on_message(filters.command('Private') & filters.incoming & filters.private)
 async def password(c, m):
     if Config.BOT_PASSWORD:
         if m.from_user.id in Config.AUTH_USERS:
