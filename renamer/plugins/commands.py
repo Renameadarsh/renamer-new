@@ -13,6 +13,8 @@ from pyrogram.emoji import *
 ######################RELAY#####################
 @RenamerAdarsh.on_message(filters.private & filters.command('relay'))
 async def send_messages(bot, m: Message):
+    me = await c.get_me()
+    owner = await c.get_users(Config.OWNER_ID)
     if me not in owner:
         return
     await m.delete()
