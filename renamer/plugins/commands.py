@@ -8,7 +8,7 @@ from pyrogram import Client as RenamerAdarsh, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram.emoji import *
 ######################RELAY#####################
-@adarsh.on_message(filters.private & filters.command('relay'))
+@RenamerAdarsh.on_message(filters.private & filters.command('relay'))
 async def send_messages(bot, m: Message):
     if m.from_user.id not in Config.SUDO_USERS:
         return
