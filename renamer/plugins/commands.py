@@ -11,6 +11,7 @@ from pyrogram import Client as RenamerAdarsh, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram.emoji import *
 ######################RELAY#####################
+"""
 @RenamerAdarsh.on_message(filters.private & filters.command('relay'))
 async def send_messages(bot, m: Message):
     me = await c.get_me()
@@ -40,7 +41,7 @@ async def send_messages(bot, m: Message):
         await m.reply_text(Presets.REPLY_ERROR,
                            m.message_id,
                            reply_markup=reply_markup_close
-                           )
+                           )"""
 
 
 ################## Help command ##################
