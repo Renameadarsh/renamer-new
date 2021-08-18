@@ -1,3 +1,6 @@
+
+from pyrogram.types import Message
+
 import logging
 logger = logging.getLogger(__name__)
 
