@@ -7,6 +7,35 @@ from ..database.database import *
 from pyrogram import Client as RenamerAdarsh, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram.emoji import *
+######################RELAY#####################
+@adarsh.on_message(filters.private & filters.command('relay'))
+async def send_messages(bot, m: Message):
+    if m.from_user.id not in Config.SUDO_USERS:
+        return
+    await m.delete()
+    if m.reply_to_message is not None:
+        msg = await m.reply_text(Presets.SEND_TEXT)
+        query = await query_msg()
+        for row in query:
+            chat_id = int(row[0])
+            try:
+                await bot.copy_message(
+                    chat_id=chat_id,
+                    from_chat_id=m.chat.id,
+                    message_id=m.reply_to_message.message_id,
+                    caption=m.caption
+                )
+            except FloodWait as e:
+                await asyncio.sleep(e.x)
+            except Exception:
+                pass
+        await msg.delete()
+    else:
+        await m.delete()
+        await m.reply_text(Presets.REPLY_ERROR,
+                           m.message_id,
+                           reply_markup=reply_markup_close
+                           )
 
 
 ################## Help command ##################
