@@ -45,7 +45,7 @@ I am a telegram renamer with permanent thumbnail Support.
 
 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 click `𝖧𝖾𝗅𝗉`.
 
-**`Maintained By:`** {@adarshgoelpro}
+**`Maintained By:`** @AdarshGoelPro
 """
 
 
