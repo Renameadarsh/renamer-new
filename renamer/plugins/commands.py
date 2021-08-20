@@ -178,7 +178,7 @@ async def password(c, m):
             return await m.reply_text(f"__You are already logged in {VICTORY_HAND}.__", quote=True)
 
         if len(m.command) == 1:
-            await m.reply_text('Send me the bot password in the format `/login password`')
+            await m.reply_text('Send me the bot password in the format `/private password`')
         else:
             cmd, pwd = m.text.split(' ', 1)
             if pwd == Config.BOT_PASSWORD:
