@@ -1,7 +1,7 @@
 from pyrogram.emoji import *
 
 class TEXT:
-    DOWNLOAD_START = f"`Connecting to my server may take 5 secs!` {SLEEPING_FACE}"
+    DOWNLOAD_START = f"`Connecting to my server may take upto 5 secs!` {SLEEPING_FACE}"
     UPLOAD_START = f"`Uploading is starting!` {SLEEPING_FACE}"
     UPLOAD_SUCESS = f"Thanks for using [ADARSH'S BOT](https://github.com/renameadarsh/renamer-new)"
     BANNED_USER_TEXT = f"`Hey bro, you are **banned** from using me {FACE_WITH_TEARS_OF_JOY}.`"
@@ -41,7 +41,7 @@ For source code check about
 
     START_TEXT = """Hi {user_mention},
 
-I am a telegram renamer with permanent thumbnail Support.
+I am a telegram renamer with permanent thumbnail Support. \n I am also a `File` to `Video` and  `Video` to `File`  coverter !
 
 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 click `𝖧𝖾𝗅𝗉`.
 
