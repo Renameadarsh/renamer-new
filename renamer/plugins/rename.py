@@ -35,7 +35,7 @@ async def media(c, m):
         if time_gap:
             return
 
-    file_name = await c.ask(chat_id=m.from_user.id, text="Send me the New FileName for this file or send /cancel to stop", filters=filters.text)
+    file_name = await c.ask(chat_id=m.from_user.id, text="Send me the New FileName for this file or send /cancel to stop   IF YOUR FILE'S NAME IS EXAMPLE.MP4   THE NEW NAME SHOULD LOOK LINKE  ANY_NAME.MP4  \n   NEVER CHANGE FILE EXTENSIONS(MP4 , MKV ,WEBM , etc.", filters=filters.text)
     await file_name.delete()
     await file_name.request.delete()
     new_file_name = file_name.text
