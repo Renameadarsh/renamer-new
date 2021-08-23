@@ -28,3 +28,5 @@ class Config:
     except:
         TRACE_CHANNEL = None
         logger.warning("Trace channel id was invalid")
+        FINISHED = "█"
+        UNFINISHED = "░"
